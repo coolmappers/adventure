@@ -1,0 +1,29 @@
+version: '3.9'
+
+services:
+  tiled:
+    build:
+      context: .
+    container_name: tiled
+    ports:
+      - "5800:5800"
+    cap_add:
+      - SYS_ADMIN
+    devices:
+      - /dev/fuse
+    volumes:
+      - ./:/data
+    environment:
+      DISPLAY_WIDTH: 1920
+      DISPLAY_HEIGHT: 1080
+      APP_NAME: Tiled
+  map:
+    image: node:alpine
+    container_name: map
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/app
+    user: 1000:1000
+    working_dir: /app
+    command: npm run start
