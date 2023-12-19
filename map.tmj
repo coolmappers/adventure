@@ -601,7 +601,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"https:\/\/play.workadventu.re\/@\/q-adventure\/lupus\/morgue#from-office"
+                         "value":"https:\/\/play.workadventu.re\/@\/q-adventure\/lupus\/morgue"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -618,7 +618,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"https:\/\/play.workadventu.re\/@\/q-adventure\/lupus\/morgue#from-office#from-office"
+                         "value":"https:\/\/play.workadventu.re\/@\/quentic\/openspace\/lupus-office#west"
                         }],
                  "rotation":0,
                  "visible":true,
