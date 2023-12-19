@@ -711,7 +711,7 @@
                  "class":"area",
                  "height":57.6666666666666,
                  "id":25,
-                 "name":"amcsWasteVideo",
+                 "name":"wasteEasterEgg",
                  "properties":[
                         {
                          "name":"openWindow",
@@ -723,6 +723,23 @@
                  "width":33,
                  "x":671.833333333333,
                  "y":388.166666666667
+                }, 
+                {
+                 "class":"area",
+                 "height":31.8181818181819,
+                 "id":26,
+                 "name":"duckEasterEgg",
+                 "properties":[
+                        {
+                         "name":"openWindow",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/kYqv0LpuCyM?si=mz3uSnV5k-UnElMt"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":32.1818181818182,
+                 "x":768.181818181818,
+                 "y":768.363636363636
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -845,7 +862,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":26,
+ "nextobjectid":27,
  "orientation":"orthogonal",
  "properties":[
         {

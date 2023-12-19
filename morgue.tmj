@@ -264,6 +264,23 @@
                  "width":55.25,
                  "x":820.666666666667,
                  "y":219.75
+                }, 
+                {
+                 "class":"area",
+                 "height":73.5,
+                 "id":22,
+                 "name":"forgottenBugs",
+                 "properties":[
+                        {
+                         "name":"openTab",
+                         "type":"string",
+                         "value":"https:\/\/quentic.atlassian.net\/issues\/?filter=11125"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":61,
+                 "x":818,
+                 "y":86
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -324,7 +341,7 @@
          "y":0
         }],
  "nextlayerid":64,
- "nextobjectid":22,
+ "nextobjectid":23,
  "orientation":"orthogonal",
  "properties":[
         {
