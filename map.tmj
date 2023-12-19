@@ -522,7 +522,7 @@
                  "class":"area",
                  "height":128,
                  "id":13,
-                 "name":"jitsiChillZone",
+                 "name":"daily",
                  "properties":[
                         {
                          "name":"focusable",
@@ -571,7 +571,7 @@
                  "class":"area",
                  "height":349.333333333333,
                  "id":16,
-                 "name":"jitsiMeetingRoom",
+                 "name":"meetings",
                  "properties":[
                         {
                          "name":"focusable",
@@ -643,23 +643,6 @@
                  "width":32,
                  "x":-1.33333333333333,
                  "y":514.666666666667
-                }, 
-                {
-                 "class":"area",
-                 "height":96.3333333333335,
-                 "id":21,
-                 "name":"startilentZone",
-                 "properties":[
-                        {
-                         "name":"silent",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":46.6666666666666,
-                 "x":488,
-                 "y":1215.16666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
