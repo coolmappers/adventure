@@ -65,8 +65,8 @@
             3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             3, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3,
-            3, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 3, 3, 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3, 0, 3,
-            3, 0, 0, 3, 3, 0, 0, 3, 0, 0, 0, 3, 3, 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3,
+            3, 0, 0, 3, 3, 0, 0, 3, 0, 0, 0, 3, 3, 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3, 0, 3,
+            3, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 3, 3, 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3,
             3, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 3, 3, 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 0, 0, 3, 0, 3, 0, 0, 3,
             3, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 3, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
             3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3,
@@ -525,12 +525,12 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"ChillZone"
+                         "value":"Daily"
                         }, 
                         {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"zoom_margin",
@@ -577,9 +577,9 @@
                          "value":"MeetingRoom"
                         }, 
                         {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
                         }, 
                         {
                          "name":"zoom_margin",
@@ -625,6 +625,104 @@
                  "width":32,
                  "x":-1.33333333333333,
                  "y":514.666666666667
+                }, 
+                {
+                 "class":"area",
+                 "height":128,
+                 "id":22,
+                 "name":"agileBoardLink",
+                 "properties":[
+                        {
+                         "name":"openTab",
+                         "type":"string",
+                         "value":"https:\/\/quentic.atlassian.net\/jira\/software\/c\/projects\/EE\/boards\/100"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to open Agile Board"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":192,
+                 "x":34.6666666666667,
+                 "y":98.6666666666667
+                }, 
+                {
+                 "class":"area",
+                 "height":29,
+                 "id":23,
+                 "name":"backlogLink",
+                 "properties":[
+                        {
+                         "name":"openTab",
+                         "type":"string",
+                         "value":"https:\/\/quentic.atlassian.net\/jira\/software\/c\/projects\/EE\/boards\/100\/backlog"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to open Backlog"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":65.75,
+                 "x":769.333333333333,
+                 "y":98.5833333333333
+                }, 
+                {
+                 "class":"area",
+                 "height":29,
+                 "id":24,
+                 "name":"bugDashboardLink",
+                 "properties":[
+                        {
+                         "name":"openTab",
+                         "type":"string",
+                         "value":"https:\/\/quentic.atlassian.net\/jira\/dashboards\/10114"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to open Bug Dashboard"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":63,
+                 "x":896.625,
+                 "y":100.5
+                }, 
+                {
+                 "class":"area",
+                 "height":57.6666666666666,
+                 "id":25,
+                 "name":"amcsWasteVideo",
+                 "properties":[
+                        {
+                         "name":"openTab",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/fDmKpEWI3f4?si=CDnt-8J2fRxn-Ce-"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":33,
+                 "x":671.833333333333,
+                 "y":388.166666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -747,7 +845,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":22,
+ "nextobjectid":26,
  "orientation":"orthogonal",
  "properties":[
         {
