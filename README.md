@@ -1,3 +1,10 @@
+# Use this repo
+- checkout
+- docker-compose up
+- visit http://localhost:5800
+- commit & push
+- test at https://coolmappers.github.io/adventure/
+
 # WorkAdventure Map Starter Kit
 
 ![map](./map.png)
