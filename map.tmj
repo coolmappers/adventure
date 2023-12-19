@@ -714,7 +714,7 @@
                  "name":"amcsWasteVideo",
                  "properties":[
                         {
-                         "name":"openTab",
+                         "name":"openWindow",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/fDmKpEWI3f4?si=CDnt-8J2fRxn-Ce-"
                         }],
