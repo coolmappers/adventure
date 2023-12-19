@@ -525,7 +525,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"Daily"
+                         "value":"daily"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -574,7 +574,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"MeetingRoom"
+                         "value":"meetings"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -714,7 +714,7 @@
                  "name":"wasteEasterEgg",
                  "properties":[
                         {
-                         "name":"openWindow",
+                         "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/fDmKpEWI3f4?si=CDnt-8J2fRxn-Ce-"
                         }],
@@ -731,7 +731,7 @@
                  "name":"duckEasterEgg",
                  "properties":[
                         {
-                         "name":"openWindow",
+                         "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/kYqv0LpuCyM?si=mz3uSnV5k-UnElMt"
                         }],
