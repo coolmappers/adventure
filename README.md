@@ -1,16 +1,12 @@
 # Use this repo
 - checkout
-- docker-compose up
-- visit http://localhost:5800
+- `docker-compose up`
+- visit http://localhost:5800 to use tiled editor
+- visit http://localhost:3000 to test the map locally
 - commit & push
 - test at https://coolmappers.github.io/adventure/
 
-# WorkAdventure Map Starter Kit
-
-![map](./map.png)
-
-This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
-
+# WorkAdventure Map
 To understand how to use this starter kit, follow the tutorial at [https://workadventu.re/map-building](https://workadventu.re/map-building).
 
 ## Structure
@@ -26,26 +22,15 @@ we recommend using 500x500 images for the map thumbnails.
 
 If you are going to create custom websites to embed in the map, please reference the HTML files in the `input` option in *vite.config.js*.
 
-## Requirements
-
-Node.js version >=17
-
-## Installation
-
-With npm installed (comes with [node](https://nodejs.org/en/)), run the following commands into a terminal in the root directory of this project:
-
-```shell
-npm install
-npm run dev
-```
-
 ## Test production map
 
 You can test the optimized map as it will be in production:
 ```sh
+# execute in map container
 npm run build
 npm run prod
 ```
+
 
 ## Licenses
 

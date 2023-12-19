@@ -14,16 +14,16 @@ services:
     volumes:
       - ./:/data
     environment:
-      DISPLAY_WIDTH: 1920
-      DISPLAY_HEIGHT: 1080
+      DISPLAY_WIDTH: 2300
+      DISPLAY_HEIGHT: 1200
       APP_NAME: Tiled
   map:
     image: node:alpine
     container_name: map
     ports:
-      - "3000:3000"
+      - "3000:5173"
     volumes:
       - ./:/app
     user: 1000:1000
     working_dir: /app
-    command: npm run start
+    command: ash -c "npm install && npm run dev"
