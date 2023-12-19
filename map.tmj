@@ -547,7 +547,7 @@
                  "class":"area",
                  "height":95,
                  "id":14,
-                 "name":"silentZone",
+                 "name":"silentZoneGarden",
                  "properties":[
                         {
                          "name":"silent",
@@ -740,6 +740,195 @@
                  "width":32.1818181818182,
                  "x":768.181818181818,
                  "y":768.363636363636
+                }, 
+                {
+                 "class":"area",
+                 "height":121.333333333333,
+                 "id":27,
+                 "name":"breakout1",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"breakout1"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":1
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":118.666666666667,
+                 "x":325.333333333333,
+                 "y":113.333333333333
+                }, 
+                {
+                 "class":"area",
+                 "height":122.666333333333,
+                 "id":28,
+                 "name":"breakout2",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"breakout2"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":1
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":125.333666666667,
+                 "x":512.6665,
+                 "y":114.000166666667
+                }, 
+                {
+                 "class":"area",
+                 "height":96.0000000000001,
+                 "id":29,
+                 "name":"oneOnOne",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"oneOnOne"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":1
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":32,
+                 "x":160.333333333333,
+                 "y":479.666666666667
+                }, 
+                {
+                 "class":"area",
+                 "height":109.666666666667,
+                 "id":30,
+                 "name":"silentZoneEntrance",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":89.3333333333334,
+                 "x":466.666666666667,
+                 "y":1203.16666666667
+                }, 
+                {
+                 "class":"area",
+                 "height":118.333,
+                 "id":31,
+                 "name":"kitchen",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"kitchen"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":1
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":58.3333,
+                 "x":44.1666833333333,
+                 "y":255.500166666667
+                }, 
+                {
+                 "class":"area",
+                 "height":63.6669999999999,
+                 "id":32,
+                 "name":"silentZoneBoat",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":35.9999666666666,
+                 "x":831.33335,
+                 "y":1024.49983333333
+                }, 
+                {
+                 "class":"area",
+                 "height":20.6667,
+                 "id":33,
+                 "name":"quenticPromo",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/Mlgk70Wm-9E"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to think about Quentic"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":58.3333333333333,
+                 "x":448.5,
+                 "y":95.8333166666666
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -862,7 +1051,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":27,
+ "nextobjectid":34,
  "orientation":"orthogonal",
  "properties":[
         {
