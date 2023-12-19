@@ -733,7 +733,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/kYqv0LpuCyM?si=mz3uSnV5k-UnElMt"
+                         "value":"https:\/\/www.youtube.com\/embed\/W6_d22aMqZs"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -761,11 +761,6 @@
                          "name":"openWebsiteClosable",
                          "type":"bool",
                          "value":false
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
                         }],
                  "rotation":0,
                  "visible":true,
@@ -793,11 +788,6 @@
                          "name":"openWebsiteClosable",
                          "type":"bool",
                          "value":false
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
                         }],
                  "rotation":0,
                  "visible":true,
@@ -825,11 +815,6 @@
                          "name":"openWebsiteClosable",
                          "type":"bool",
                          "value":false
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
                         }],
                  "rotation":0,
                  "visible":true,
@@ -874,11 +859,6 @@
                          "name":"openWebsiteClosable",
                          "type":"bool",
                          "value":false
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
                         }],
                  "rotation":0,
                  "visible":true,
