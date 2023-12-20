@@ -611,7 +611,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":64,
+                 "height":49.5,
                  "id":20,
                  "name":"to-conference",
                  "properties":[
@@ -622,9 +622,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":21.3333333333333,
-                 "x":-1.33333333333333,
-                 "y":514.666666666667
+                 "width":18.8333333333333,
+                 "x":1.16666666666667,
+                 "y":519.666666666667
                 }, 
                 {
                  "class":"area",
@@ -802,14 +802,14 @@
                  "name":"oneOnOne",
                  "properties":[
                         {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"oneOnOne"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
                         }, 
                         {
                          "name":"openWebsiteClosable",
