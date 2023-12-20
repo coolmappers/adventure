@@ -81,8 +81,8 @@
             0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0,
             3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0,
             3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0,
-            3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            3, 3, 0, 0, 0, 0, 3, 3, 3, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+            3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3,
             3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3,
             3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 3, 3, 3, 3, 3, 3,
@@ -622,7 +622,7 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":32,
+                 "width":21.3333333333333,
                  "x":-1.33333333333333,
                  "y":514.666666666667
                 }, 
@@ -748,14 +748,14 @@
                  "name":"breakout1",
                  "properties":[
                         {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"breakout1"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -775,14 +775,14 @@
                  "name":"breakout2",
                  "properties":[
                         {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"breakout2"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -846,14 +846,14 @@
                  "name":"kitchen",
                  "properties":[
                         {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"kitchen"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -906,9 +906,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":58.3333333333333,
-                 "x":448.5,
-                 "y":95.8333166666666
+                 "width":184,
+                 "x":378.5,
+                 "y":87.4999833333333
                 }],
          "opacity":1,
          "type":"objectgroup",
