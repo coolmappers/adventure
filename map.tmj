@@ -907,7 +907,7 @@
                  "name":"pokerLink",
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/www.scrumpoker.it\/room\/1uwu5"
                         }, 
