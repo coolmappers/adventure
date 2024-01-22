@@ -661,12 +661,12 @@
                  "class":"area",
                  "height":49.5,
                  "id":20,
-                 "name":"to-conference",
+                 "name":"to-corridor",
                  "properties":[
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"https:\/\/play.workadventu.re\/@\/quentic\/openspace\/lupus-office#west"
+                         "value":"https:\/\/play.workadventu.re\/@\/q-adventure\/in\/corridor"
                         }],
                  "rotation":0,
                  "visible":true,

@@ -425,11 +425,29 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"",
+                 "class":"area",
                  "ellipse":true,
                  "height":36.6666666666667,
                  "id":24,
-                 "name":"lupus",
+                 "name":"to-cis",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"https:\/\/play.workadventu.re\/@\/quentic-1683792324\/world-of-cis\/startup"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":49.9999999999999,
+                 "x":1048,
+                 "y":316.666666666667
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":36.6667,
+                 "id":25,
+                 "name":"to-lupus",
                  "properties":[
                         {
                          "name":"exitUrl",
@@ -438,9 +456,117 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":49.9999999999999,
-                 "x":664,
-                 "y":316.666666666667
+                 "width":50,
+                 "x":663,
+                 "y":317.66665
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":36.6667,
+                 "id":26,
+                 "name":"to-lupus-old",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"https:\/\/play.workadventu.re\/@\/quentic\/openspace\/lupus-office#west"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":50,
+                 "x":568.333333333333,
+                 "y":509.66665
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":36.6667,
+                 "id":27,
+                 "name":"to-agile",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"https:\/\/play.workadventu.re\/@\/quentic\/openspace\/agile-community"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":50,
+                 "x":853.666666666667,
+                 "y":217.66665
+                }, 
+                {
+                 "class":"",
+                 "height":19,
+                 "id":28,
+                 "name":"agile-label",
+                 "rotation":0,
+                 "text":
+                    {
+                     "halign":"center",
+                     "text":"Agile",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "visible":true,
+                 "width":91.4375,
+                 "x":833.78125,
+                 "y":282
+                }, 
+                {
+                 "class":"",
+                 "height":19,
+                 "id":32,
+                 "name":"cis-label",
+                 "rotation":0,
+                 "text":
+                    {
+                     "halign":"center",
+                     "text":"CIS",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "visible":true,
+                 "width":91.4375,
+                 "x":1026.78125,
+                 "y":374.5
+                }, 
+                {
+                 "class":"",
+                 "height":19,
+                 "id":33,
+                 "name":"lupus-label",
+                 "rotation":0,
+                 "text":
+                    {
+                     "halign":"center",
+                     "text":"Lupus",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "visible":true,
+                 "width":91.4375,
+                 "x":643.78125,
+                 "y":375.5
+                }, 
+                {
+                 "class":"",
+                 "height":19,
+                 "id":34,
+                 "name":"lupus-old-label",
+                 "rotation":0,
+                 "text":
+                    {
+                     "halign":"center",
+                     "text":"Lupus Old",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "visible":true,
+                 "width":91.4375,
+                 "x":545.78125,
+                 "y":565.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -545,7 +671,7 @@
          "y":0
         }],
  "nextlayerid":64,
- "nextobjectid":25,
+ "nextobjectid":35,
  "orientation":"orthogonal",
  "properties":[
         {
