@@ -257,7 +257,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"https:\/\/play.workadventu.re\/@\/quentic\/openspace\/lupus-2024"
+                         "value":"lupus-2024#morgueStart"
                         }],
                  "rotation":0,
                  "visible":true,

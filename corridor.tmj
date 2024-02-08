@@ -446,7 +446,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"https:\/\/play.workadventu.re\/@\/quentic\/openspace\/lupus-2024#stairsStart"
+                         "value":"lupus-2024#stairsStart"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -464,7 +464,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"https:\/\/play.workadventu.re\/@\/quentic\/openspace\/lupus-office#west"
+                         "value":"lupus-office#west"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -482,7 +482,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"https:\/\/play.workadventu.re\/@\/quentic\/openspace\/agile-community"
+                         "value":"agile-community"
                         }],
                  "rotation":0,
                  "visible":true,
