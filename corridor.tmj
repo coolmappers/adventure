@@ -430,6 +430,12 @@
                  "height":36.6666666666667,
                  "id":24,
                  "name":"to-cis",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"https:\/\/play.workadventu.re\/@\/quentic-1683792324\/world-of-cis\/startup"
+                        }],
                  "rotation":0,
                  "visible":true,
                  "width":49.9999999999999,
