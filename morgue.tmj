@@ -248,7 +248,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "ellipse":true,
                  "height":37.5,
                  "id":21,
@@ -260,13 +259,13 @@
                          "value":"lupus-2024#morgueStart"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":55.25,
                  "x":820.666666666667,
                  "y":219.75
                 }, 
                 {
-                 "class":"area",
                  "height":73.5,
                  "id":22,
                  "name":"forgottenBugs",
@@ -274,16 +273,16 @@
                         {
                          "name":"openTab",
                          "type":"string",
-                         "value":"https:\/\/quentic.atlassian.net\/issues\/?filter=11125"
+                         "value":"http:\/\/tiny.cc\/1upu5-forgotten-bugs"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":61,
                  "x":818,
                  "y":86
                 }, 
                 {
-                 "class":"area",
                  "height":162.666666666667,
                  "id":23,
                  "name":"silentZone",
@@ -294,6 +293,7 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":215.333333333333,
                  "x":737.333333333333,
@@ -387,7 +387,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -652,6 +652,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":31
 }

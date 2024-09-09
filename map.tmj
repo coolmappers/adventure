@@ -628,7 +628,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":128,
                  "id":13,
                  "name":"daily",
@@ -649,13 +648,13 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":32,
                  "y":96
                 }, 
                 {
-                 "class":"area",
                  "height":95,
                  "id":14,
                  "name":"silentZoneGarden",
@@ -666,13 +665,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":224,
                  "x":640,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":349.333333333333,
                  "id":16,
                  "name":"meetings",
@@ -693,13 +692,13 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":768,
                  "y":98.6666666666667
                 }, 
                 {
-                 "class":"area",
                  "height":48,
                  "id":18,
                  "name":"to-morgue",
@@ -710,13 +709,13 @@
                          "value":"morgue"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":33.5,
                  "x":958.333333333333,
                  "y":543.833333333333
                 }, 
                 {
-                 "class":"area",
                  "height":49.5,
                  "id":20,
                  "name":"to-corridor",
@@ -727,13 +726,13 @@
                          "value":"corridor"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":18.8333333333333,
                  "x":1.16666666666667,
                  "y":519.666666666667
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":22,
                  "name":"agileBoardLink",
@@ -741,7 +740,7 @@
                         {
                          "name":"openTab",
                          "type":"string",
-                         "value":"https:\/\/quentic.atlassian.net\/jira\/software\/c\/projects\/EE\/boards\/100"
+                         "value":"http:\/\/tiny.cc\/1uwu5-board"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -754,13 +753,13 @@
                          "value":"Press SPACE to open Agile Board"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":34.6666666666667,
                  "y":98.6666666666667
                 }, 
                 {
-                 "class":"area",
                  "height":29,
                  "id":23,
                  "name":"backlogLink",
@@ -768,7 +767,7 @@
                         {
                          "name":"openTab",
                          "type":"string",
-                         "value":"https:\/\/quentic.atlassian.net\/jira\/software\/c\/projects\/EE\/boards\/100\/backlog"
+                         "value":"http:\/\/tiny.cc\/1upu5-backlog"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -781,13 +780,13 @@
                          "value":"Press SPACE to open Backlog"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":65.75,
                  "x":769.333333333333,
                  "y":98.5833333333333
                 }, 
                 {
-                 "class":"area",
                  "height":29,
                  "id":24,
                  "name":"bugDashboardLink",
@@ -795,7 +794,7 @@
                         {
                          "name":"openTab",
                          "type":"string",
-                         "value":"https:\/\/quentic.atlassian.net\/jira\/dashboards\/10114"
+                         "value":"http:\/\/tiny.cc\/1upu5-bug-dashboard"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -808,13 +807,13 @@
                          "value":"Press SPACE to open Bug Dashboard"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":63,
                  "x":896.625,
                  "y":100.5
                 }, 
                 {
-                 "class":"area",
                  "height":57.6666666666666,
                  "id":25,
                  "name":"wasteEasterEgg",
@@ -822,16 +821,16 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/fDmKpEWI3f4?si=CDnt-8J2fRxn-Ce-"
+                         "value":"http:\/\/tiny.cc\/1upu5-waste"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":33,
                  "x":671.833333333333,
                  "y":388.166666666667
                 }, 
                 {
-                 "class":"area",
                  "height":31.8181818181819,
                  "id":26,
                  "name":"duckEasterEgg",
@@ -839,16 +838,16 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/W6_d22aMqZs"
+                         "value":"http:\/\/tiny.cc\/1upu5-duck"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32.1818181818182,
                  "x":768.181818181818,
                  "y":768.363636363636
                 }, 
                 {
-                 "class":"area",
                  "height":121.333333333333,
                  "id":27,
                  "name":"breakout1",
@@ -869,13 +868,13 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":118.666666666667,
                  "x":325.333333333333,
                  "y":113.333333333333
                 }, 
                 {
-                 "class":"area",
                  "height":122.666333333333,
                  "id":28,
                  "name":"breakout2",
@@ -896,13 +895,13 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":125.333666666667,
                  "x":512.6665,
                  "y":114.000166666667
                 }, 
                 {
-                 "class":"area",
                  "height":96.0000000000001,
                  "id":29,
                  "name":"oneOnOne",
@@ -923,13 +922,13 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":160.333333333333,
                  "y":479.666666666667
                 }, 
                 {
-                 "class":"area",
                  "height":109.666666666667,
                  "id":30,
                  "name":"silentZoneEntrance",
@@ -940,13 +939,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":89.3333333333334,
                  "x":466.666666666667,
                  "y":1203.16666666667
                 }, 
                 {
-                 "class":"area",
                  "height":118.333,
                  "id":31,
                  "name":"kitchen",
@@ -967,13 +966,13 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":58.3333,
                  "x":44.1666833333333,
                  "y":255.500166666667
                 }, 
                 {
-                 "class":"area",
                  "height":63.6669999999999,
                  "id":32,
                  "name":"silentZoneBoat",
@@ -984,13 +983,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":35.9999666666666,
                  "x":831.33335,
                  "y":1024.49983333333
                 }, 
                 {
-                 "class":"area",
                  "height":25.6667,
                  "id":33,
                  "name":"quenticPromo",
@@ -998,7 +997,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/Mlgk70Wm-9E"
+                         "value":"http:\/\/tiny.cc\/1upu5-quentic-logo"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -1011,13 +1010,13 @@
                          "value":"Press SPACE to think about Quentic"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":184,
                  "x":378.5,
                  "y":87.4999833333333
                 }, 
                 {
-                 "class":"area",
                  "height":95.3333333333333,
                  "id":34,
                  "name":"pokerLink",
@@ -1025,7 +1024,7 @@
                         {
                          "name":"openTab",
                          "type":"string",
-                         "value":"https:\/\/www.scrumpoker.it\/room\/1uwu5"
+                         "value":"http:\/\/tiny.cc\/1upu5-scrum-poker"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -1038,6 +1037,7 @@
                          "value":"Press SPACE to open Scrum Poker"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":155.083333333333,
                  "x":802.791666666667,
@@ -1193,7 +1193,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -1463,6 +1463,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":31
 }
